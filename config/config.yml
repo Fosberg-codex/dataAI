@@ -1,0 +1,27 @@
+# API Configuration
+api:
+  # Default provider (openai or azure)
+  default_provider: openai
+  
+  # OpenAI settings
+  openai:
+    model: gpt-4
+    temperature: 0.7
+    max_tokens: 2000
+    
+  # Azure OpenAI settings
+  azure:
+    model_deployment: your-deployment-name
+    api_version: 2024-02-15-preview
+    temperature: 0.7
+    max_tokens: 2000
+
+# Data processing settings
+data:
+  max_rows: 10000  # Maximum number of rows to process
+  sample_size: 5    # Number of rows to show in data preview
+  
+# System settings
+system:
+  debug: false
+  log_level: INFO
