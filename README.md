@@ -1,4 +1,4 @@
-# Data AI
+# DataAI
 
 Data AI is a Python-based tool that enables natural language interactions with your datasets using various Language Learning Models (LLMs). Ask questions about your data in plain English and get insights through popular AI services.
 
